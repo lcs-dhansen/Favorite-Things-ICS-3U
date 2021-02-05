@@ -10,12 +10,43 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("Boomer")
-        .resizable()
-        .scaledToFit()
+        
+        NavigationView {
+            
+            List {
+                
+                NavigationLink(destination: Boomer1()) {
+                    Text("Boomer1")
+                }
+                
+                NavigationLink(destination: Boomer2()) {
+                    Text("Boomer2")
+                }
+                
+                NavigationLink(destination: Boomer3()) {
+                    Text("Boomer3")
+                }
+                NavigationLink(destination: Boomer4()) {
+                    Text("Boomer4")
+                }
+                NavigationLink(destination: Boomer5()) {
+                    Text("Boomer5")
+                }
+                NavigationLink(destination: Boomer6()) {
+                    Text("Boomer6")
+                }
+                
+                NavigationLink(destination: Boomer7()) {
+                    Text("Boomer7")
+                }
+            }
+          .navigationBarTitle("Boomer")
+            
+        }
+        
     }
+    
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

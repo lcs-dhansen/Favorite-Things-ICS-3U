@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6C0F7E25CDA8E90016B9D7 /* Boomer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F7D25CDA8E90016B9D7 /* Boomer1.swift */; };
+		0F6C0F8125CDA90D0016B9D7 /* Boomer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F8025CDA90D0016B9D7 /* Boomer2.swift */; };
+		0F6C0F8325CDABEB0016B9D7 /* Boomer3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F8225CDABEB0016B9D7 /* Boomer3.swift */; };
+		0F6C0F8525CDABF60016B9D7 /* Boomer4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F8425CDABF60016B9D7 /* Boomer4.swift */; };
+		0F6C0F8725CDABFE0016B9D7 /* Boomer5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F8625CDABFE0016B9D7 /* Boomer5.swift */; };
+		0F6C0F8925CDAC080016B9D7 /* Boomer6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F8825CDAC080016B9D7 /* Boomer6.swift */; };
+		0F6C0F8B25CDAC110016B9D7 /* Boomer7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F8A25CDAC110016B9D7 /* Boomer7.swift */; };
 		0FA7F0C425CC408E008A95CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7F0C325CC408E008A95CB /* AppDelegate.swift */; };
 		0FA7F0C625CC408E008A95CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7F0C525CC408E008A95CB /* SceneDelegate.swift */; };
 		0FA7F0C825CC408E008A95CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7F0C725CC408E008A95CB /* ContentView.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F6C0F7D25CDA8E90016B9D7 /* Boomer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer1.swift; sourceTree = "<group>"; };
+		0F6C0F8025CDA90D0016B9D7 /* Boomer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer2.swift; sourceTree = "<group>"; };
+		0F6C0F8225CDABEB0016B9D7 /* Boomer3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer3.swift; sourceTree = "<group>"; };
+		0F6C0F8425CDABF60016B9D7 /* Boomer4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer4.swift; sourceTree = "<group>"; };
+		0F6C0F8625CDABFE0016B9D7 /* Boomer5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer5.swift; sourceTree = "<group>"; };
+		0F6C0F8825CDAC080016B9D7 /* Boomer6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer6.swift; sourceTree = "<group>"; };
+		0F6C0F8A25CDAC110016B9D7 /* Boomer7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer7.swift; sourceTree = "<group>"; };
 		0FA7F0C025CC408E008A95CB /* Favorite Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7F0C325CC408E008A95CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FA7F0C525CC408E008A95CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +73,13 @@
 				0FA7F0C325CC408E008A95CB /* AppDelegate.swift */,
 				0FA7F0C525CC408E008A95CB /* SceneDelegate.swift */,
 				0FA7F0C725CC408E008A95CB /* ContentView.swift */,
+				0F6C0F7D25CDA8E90016B9D7 /* Boomer1.swift */,
+				0F6C0F8025CDA90D0016B9D7 /* Boomer2.swift */,
+				0F6C0F8225CDABEB0016B9D7 /* Boomer3.swift */,
+				0F6C0F8425CDABF60016B9D7 /* Boomer4.swift */,
+				0F6C0F8625CDABFE0016B9D7 /* Boomer5.swift */,
+				0F6C0F8825CDAC080016B9D7 /* Boomer6.swift */,
+				0F6C0F8A25CDAC110016B9D7 /* Boomer7.swift */,
 				0FA7F0C925CC4095008A95CB /* Assets.xcassets */,
 				0FA7F0CE25CC4095008A95CB /* LaunchScreen.storyboard */,
 				0FA7F0D125CC4095008A95CB /* Info.plist */,
@@ -146,8 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6C0F8125CDA90D0016B9D7 /* Boomer2.swift in Sources */,
+				0F6C0F8725CDABFE0016B9D7 /* Boomer5.swift in Sources */,
+				0F6C0F8325CDABEB0016B9D7 /* Boomer3.swift in Sources */,
+				0F6C0F8525CDABF60016B9D7 /* Boomer4.swift in Sources */,
+				0F6C0F8925CDAC080016B9D7 /* Boomer6.swift in Sources */,
+				0F6C0F8B25CDAC110016B9D7 /* Boomer7.swift in Sources */,
 				0FA7F0C425CC408E008A95CB /* AppDelegate.swift in Sources */,
 				0FA7F0C625CC408E008A95CB /* SceneDelegate.swift in Sources */,
+				0F6C0F7E25CDA8E90016B9D7 /* Boomer1.swift in Sources */,
 				0FA7F0C825CC408E008A95CB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
