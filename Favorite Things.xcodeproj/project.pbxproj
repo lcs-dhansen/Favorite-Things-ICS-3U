@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F50094825D1A32B00EB11C1 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F50094725D1A32B00EB11C1 /* ListItem.swift */; };
 		0F6C0F7E25CDA8E90016B9D7 /* Boomer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F7D25CDA8E90016B9D7 /* Boomer1.swift */; };
 		0F6C0F8125CDA90D0016B9D7 /* Boomer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F8025CDA90D0016B9D7 /* Boomer2.swift */; };
 		0F6C0F8325CDABEB0016B9D7 /* Boomer3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C0F8225CDABEB0016B9D7 /* Boomer3.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F50094725D1A32B00EB11C1 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		0F6C0F7D25CDA8E90016B9D7 /* Boomer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer1.swift; sourceTree = "<group>"; };
 		0F6C0F8025CDA90D0016B9D7 /* Boomer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer2.swift; sourceTree = "<group>"; };
 		0F6C0F8225CDABEB0016B9D7 /* Boomer3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boomer3.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		0FA7F0CB25CC4095008A95CB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				0F50094725D1A32B00EB11C1 /* ListItem.swift */,
 				0FA7F0CC25CC4095008A95CB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -171,6 +174,7 @@
 				0F6C0F8725CDABFE0016B9D7 /* Boomer5.swift in Sources */,
 				0F6C0F8325CDABEB0016B9D7 /* Boomer3.swift in Sources */,
 				0F6C0F8525CDABF60016B9D7 /* Boomer4.swift in Sources */,
+				0F50094825D1A32B00EB11C1 /* ListItem.swift in Sources */,
 				0F6C0F8925CDAC080016B9D7 /* Boomer6.swift in Sources */,
 				0F6C0F8B25CDAC110016B9D7 /* Boomer7.swift in Sources */,
 				0FA7F0C425CC408E008A95CB /* AppDelegate.swift in Sources */,

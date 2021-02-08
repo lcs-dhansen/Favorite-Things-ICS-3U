@@ -16,117 +16,39 @@ struct ContentView: View {
             List {
                 
                 NavigationLink(destination: Boomer1()) {
-                    HStack {
-                        Text("🦮")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Boomer1")
-                 
-                            Text("Photo 1")
-                                .font(.subheadline)
-                        }
-                        
-                    }
+                    ListItem(emoji: "🦮", title: "Boomer", subTitle: "Photo 1")
                 }
                 
                 NavigationLink(destination: Boomer2()) {
-                    HStack {
-                        Text("🦮")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Boomer2")
-                 
-                            Text("Photo 2")
-                                .font(.subheadline)
-                        }
-                        
-                    }
+                    ListItem(emoji: "🦮", title: "Boomer", subTitle: "Photo 2")
                 }
+                
                 NavigationLink(destination: Boomer3()) {
-                    HStack {
-                        Text("🦮")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Boomer3")
-                 
-                            Text("photo 3")
-                                .font(.subheadline)
-                        }
-                        
-                    }
+                    ListItem(emoji: "🦮", title: "Boomer", subTitle: "Photo 3")
                 }
+                
                 NavigationLink(destination: Boomer4()) {
-                    HStack {
-                        Text("🦮")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Boomer4")
-                 
-                            Text("photo 4")
-                                .font(.subheadline)
-                        }
-                        
-                    }
+                    ListItem(emoji: "🦮", title: "Boomer", subTitle: "Photo 4")
                 }
+                
                 NavigationLink(destination: Boomer5()) {
-                    HStack {
-                        Text("🦮")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Boomer5")
-                 
-                            Text("photo 5")
-                                .font(.subheadline)
-                        }
-                        
-                    }
+                    ListItem(emoji: "🦮", title: "Boomer", subTitle: "Photo 5")
                 }
+                
                 NavigationLink(destination: Boomer6()) {
-                    HStack {
-                        Text("🦮")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Boomer6")
-                 
-                            Text("photo 6")
-                                .font(.subheadline)
-                        }
-                        
-                    }
+                    ListItem(emoji: "🦮", title: "Boomer", subTitle: "Photo 6")
                 }
+                
                 NavigationLink(destination: Boomer7()) {
-                    HStack {
-                        Text("🦮")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        VStack(alignment: .leading) {
-                            Text("Boomer7")
-                 
-                            Text("photo 7")
-                                .font(.subheadline)
-                        }
-                        
-                    }
+                    ListItem(emoji: "🦮", title: "Boomer", subTitle: "Photo 7")
                 }
+                
           .navigationBarTitle("Boomer")
             
         }
         
     }
-    
+        
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -140,3 +62,6 @@ struct ContentView_Previews: PreviewProvider {
 
 
 }
+
+
+
